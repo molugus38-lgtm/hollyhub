@@ -1,0 +1,48 @@
+.main { background: #0d0608; min-height: 100vh; }
+
+.banner {
+  padding: 40px 32px 28px;
+  border-bottom: 1px solid #1e0808;
+}
+.eyebrow {
+  font-size: 18px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #d4af50;
+}
+.subtitle {
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 10px;
+  letter-spacing: 0.06em;
+}
+.curtain { height: 3px; background: #8b1a1a; margin: 0 32px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  gap: 3px;
+  padding: 24px 32px 48px;
+}
+
+.empty {
+  text-align: center;
+  padding: 120px 32px;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+}
+.emptySub {
+  font-size: 22px;
+  color: #d4af50;
+  margin-top: 12px;
+  line-height: 1.6;
+}

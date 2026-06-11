@@ -1,0 +1,67 @@
+.main { background: #0d0608; min-height: 100vh; }
+
+.banner {
+  padding: 36px 32px 22px;
+  border-bottom: 1px solid #1e0808;
+}
+.eyebrow {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.title {
+  font-size: 88px;
+  line-height: 1;
+}
+.title span { color: #8b1a1a; }
+.subtitle {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.curtain {
+  height: 3px;
+  background: #8b1a1a;
+  margin: 0 32px;
+  position: relative;
+}
+.curtain::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 1px;
+  background: #d4af50;
+  opacity: 0.25;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 32px 14px;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #3d1a1a;
+}
+.divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #1e0808;
+}
+.divider span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  gap: 3px;
+  padding: 0 32px 48px;
+}
+
+.empty {
+  font-size: 22px;
+}

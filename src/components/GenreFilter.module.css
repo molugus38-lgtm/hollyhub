@@ -1,0 +1,36 @@
+.filters {
+  display: flex;
+  gap: 7px;
+  padding: 18px 32px 14px;
+  flex-wrap: wrap;
+  background: #0d0608;
+}
+
+.pill {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  cursor: pointer;
+
+  border: 1px solid #2e0e0e;
+  background: transparent;
+
+  color: #ffffff;
+
+  border-radius: 2px;
+  transition: all 0.18s;
+}
+
+.pill:hover:not(.active) {
+  border-color: #8b1a1a;
+  color: #ffffff;
+}
+
+.pill.active {
+  background: #8b1a1a;
+  color: #ffffff;
+  border-color: #8b1a1a;
+}
