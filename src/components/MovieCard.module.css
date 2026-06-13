@@ -1,0 +1,121 @@
+.card {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  aspect-ratio: 2 / 3;
+  background: #1a0808;
+  border: 1px solid #1e0808;
+  border-radius: 2px;
+  transition: border-color 0.25s, transform 0.25s;
+}
+.card:hover { border-color: #d4af50; transform: translateY(-3px); }
+
+.poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.75) sepia(0.15);
+  transition: filter 0.35s, transform 0.4s;
+}
+.card:hover .poster { filter: brightness(0.42) sepia(0.3); transform: scale(1.05); }
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  background: #180a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.placeholderTitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  color: #5c1a1a;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, #0d0608 0%, transparent 52%);
+}
+
+.topRow {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  opacity: 0;
+  transition: opacity 0.22s;
+}
+.card:hover .topRow { opacity: 1; }
+
+.genreTag {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c9b97a;
+  background: rgba(13,6,8,0.85);
+  padding: 2px 7px;
+  border-radius: 1px;
+  border-left: 2px solid #8b1a1a;
+}
+
+.ratingBadge {
+  background: #8b1a1a;
+  color: #d4af50;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 2px 7px;
+  border-radius: 2px;
+  letter-spacing: 0.04em;
+}
+
+.watchlistBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(13,6,8,0.7);
+  border: 1px solid #3d1010;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s, background 0.15s;
+  z-index: 2;
+}
+.card:hover .watchlistBtn { opacity: 1; }
+.watchlistBtn:hover { background: rgba(139,26,26,0.5); }
+.watchlistBtn.watchlisted { opacity: 1; background: rgba(139,26,26,0.4); }
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 10px 11px;
+}
+
+.title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #d4af50;
+  line-height: 1.1;
+  margin-bottom: 2px;
+}
+
+.year {
+  font-size: 10px;
+  color: #5c2a2a;
+  letter-spacing: 0.05em;
+}

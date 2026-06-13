@@ -1,0 +1,166 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --black:       #0d0608;
+  --black-soft:  #110508;
+  --black-card:  #1a0808;
+  --red-deep:    #8b1a1a;
+  --red-border:  #5c1a1a;
+  --red-dim:     #3d1010;
+  --red-faint:   #1e0808;
+  --gold:        #d4af50;
+  --gold-dim:    #c9b97a;
+  --gold-muted:  #a07040;
+  --gold-faint:  #7a5a3a;
+  --text-muted:  #5a3a2a;
+  --text-hint:   #4a2d2d;
+  --text-dim:    #3d1a1a;
+}
+
+html, body { background: var(--black); color: var(--gold-dim); min-height: 100vh; }
+body { font-family: 'Jost', sans-serif; }
+
+* { scrollbar-width: thin; scrollbar-color: var(--red-deep) var(--black-soft); }
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--black-soft); }
+::-webkit-scrollbar-thumb { background: var(--red-deep); border-radius: 3px; }
+/* =========================
+   TYPOGRAPHY SCALE
+   ========================= */
+
+/* Main Hero Title */
+.hero-title,
+.hero h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--gold);
+}
+
+/* HOLLYWOOD CINEMA VAULT */
+.hero-label,
+.hero-kicker,
+.hero-overline {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--red-deep);
+}
+
+/* Your personal seat in the dark */
+.hero-tagline,
+.hero-subtitle,
+.hero p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--gold-muted);
+  margin-top: 0.75rem;
+}
+
+/* Navigation */
+.nav-links a,
+.nav-links li {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Genre Buttons */
+.genre-container button,
+.genre-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+}
+
+/* Page Headings */
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gold-dim);
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Movie Titles */
+.movie-title,
+.movie-card h3 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+/* Genre Text */
+.movie-genre {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--gold-muted);
+}
+
+/* Movie Description */
+.movie-description,
+.movie-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Watchlist Page */
+.watchlist-page h1,
+.watchlist-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+/* Reviews Page */
+.reviews-page h1,
+.reviews-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--gold);
+}
+
+/* Empty State Messages */
+.empty-message {
+  font-size: 1.2rem;
+  color: var(--gold-muted);
+}
+
+/* Search Box */
+.search-container input,
+.search-input {
+  font-size: 1rem;
+  color: var(--gold-dim);
+}
+
+/* Modal Content */
+.modal-content h2 {
+  font-size: 2rem;
+  color: var(--gold);
+}
+
+.modal-content p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+.heroEyebrow,
+.heroKicker,
+.heroOverline,
+.eyebrow,
+.kicker,
+.overline {
+  font-size: 18px !important;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
