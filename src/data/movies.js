@@ -240,3 +240,6 @@ const movies = [
     description: "An aspiring actress and a jazz musician chase their dreams while falling in love."
   }
 ];
+
+
+export default movies;
