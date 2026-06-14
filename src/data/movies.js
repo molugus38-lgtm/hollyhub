@@ -1,5 +1,5 @@
 const movies = [
-  { id: 1,  title: "The Godfather",         year: 1972, genre: "Crime",   rating: "9.2", director: "Francis Ford Coppola", img: process.env.PUBLIC_URL + "/posters/godfather.jpg" },
+  { id: 1,  title: "The Godfather",         year: 1972, genre: "Crime",   rating: "9.2", director: "Francis Ford Coppola", img: process.env.PUBLIC_URL + "/posters/thegodfather.jpg" },
   { id: 2,  title: "Inception",             year: 2010, genre: "Sci-Fi",  rating: "8.8", director: "Christopher Nolan",   img: process.env.PUBLIC_URL + "/posters/inception.jpg" },
   { id: 3,  title: "Pulp Fiction",          year: 1994, genre: "Crime",   rating: "8.9", director: "Quentin Tarantino",   img: process.env.PUBLIC_URL + "/posters/pulpfiction.jpg" },
   { id: 4,  title: "The Dark Knight",       year: 2008, genre: "Action",  rating: "9.0", director: "Christopher Nolan",   img: process.env.PUBLIC_URL + "/posters/thedarkknight.jpg" },
@@ -13,7 +13,7 @@ const movies = [
   { id: 13, title: "Moonlight",             year: 2016, genre: "Drama",   rating: "7.4", director: "Barry Jenkins",       img: process.env.PUBLIC_URL + "/posters/moonlight.jpg" },
   { id: 14, title: "Blade Runner 2049",     year: 2017, genre: "Sci-Fi",  rating: "8.0", director: "Denis Villeneuve",    img: process.env.PUBLIC_URL + "/posters/bladerunner2049.jpg" },
   { id: 15, title: "Hereditary",            year: 2018, genre: "Horror",  rating: "7.3", director: "Ari Aster",           img: process.env.PUBLIC_URL + "/posters/hereditary.jpg" },
-  { id: 16, title: "Goodfellas",            year: 1990, genre: "Crime",   rating: "8.7", director: "Martin Scorsese",     img: process.env.PUBLIC_URL + "/posters/goodfellas.jpg" },
+  { id: 16, title: "Goodfellas",            year: 1990, genre: "Crime",   rating: "8.7", director: "Martin Scorsese",     img: process.env.PUBLIC_URL + "/posters/Goodfellas.jpg" },
   { id: 17, title: "Eternal Sunshine",      year: 2004, genre: "Romance", rating: "8.3", director: "Michel Gondry",       img: process.env.PUBLIC_URL + "/posters/eternalsunshine.jpg" },
   { id: 18, title: "Heat",                  year: 1995, genre: "Thriller",rating: "8.3", directo:"Michael Mann",        img: process.env.PUBLIC_URL + "/posters/heat.jpg" },
   { id:19, title:"Parasite",              year:2019, genre:"Thriller",rating:"8.5", director:"Bong Joon-ho",        img:process.env.PUBLIC_URL + "/posters/parasite.jpg" },
