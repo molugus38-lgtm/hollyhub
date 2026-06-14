@@ -40,9 +40,10 @@ export default function MovieCard({ movie, onWatchlist, isWatchlisted }) {
       </button>
 
       <div className={styles.info}>
-        <h3 className={styles.title}>{movie.title}</h3>
-        <p className={styles.year}>{movie.year}</p>
-      </div>
+  <h3 className={styles.title}>{movie.title}</h3>
+  <p className={styles.year}>{movie.year}</p>
+  <p className={styles.description}>{movie.description}</p>
+</div>
     </div>
   );
 }
