@@ -146,7 +146,7 @@ const movies = [
     genre: "Crime",
     rating: "8.7",
     director: "Martin Scorsese",
-    img: process.env.PUBLIC_URL + "/posters/goodfellas.jpg",
+    img: process.env.PUBLIC_URL + "/posters/Goodfellas.jpg",
     description: "The rise and fall of a mob associate in the world of organized crime."
   },
   {
