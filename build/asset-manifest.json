@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hollyhub/static/css/main.f5b0dae9.css",
+    "main.js": "/hollyhub/static/js/main.c93660e8.js",
+    "index.html": "/hollyhub/index.html",
+    "main.f5b0dae9.css.map": "/hollyhub/static/css/main.f5b0dae9.css.map",
+    "main.c93660e8.js.map": "/hollyhub/static/js/main.c93660e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5b0dae9.css",
+    "static/js/main.c93660e8.js"
+  ]
+}
